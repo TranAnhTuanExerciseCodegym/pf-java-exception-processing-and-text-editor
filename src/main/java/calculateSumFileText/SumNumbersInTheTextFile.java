@@ -24,6 +24,8 @@ public class SumNumbersInTheTextFile {
             System.out.println("not find file text");
         } catch (IOException e) {
             System.out.println("no");
+        } catch (NumberFormatException e) {
+            System.out.println("Incorrect characters");
         }
     }
 }
